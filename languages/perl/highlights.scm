@@ -91,6 +91,7 @@
 (relational_expression operator: "isa" right: (bareword) @type)
 
 (function) @function
+(function) (bareword) @function
 
 (function_call_expression (function) @function.call)
 (method_call_expression (method) @method.call)
